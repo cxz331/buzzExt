@@ -1,0 +1,8 @@
+varstream.lo: /data/service/php-5.5.28/ext/varstream/varstream.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/service/php-5.5.28/ext/varstream $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/service/php-5.5.28/ext/varstream/varstream.c -o varstream.lo 
+$(phplibdir)/varstream.la: ./varstream.la
+	$(LIBTOOL) --mode=install cp ./varstream.la $(phplibdir)
+
+./varstream.la: $(shared_objects_varstream) $(VARSTREAM_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_varstream) $(VARSTREAM_SHARED_LIBADD)
+

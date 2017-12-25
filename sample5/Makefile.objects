@@ -1,0 +1,8 @@
+sample5.lo: /data/service/php-5.5.28/ext/sample5/sample5.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/service/php-5.5.28/ext/sample5 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/service/php-5.5.28/ext/sample5/sample5.c -o sample5.lo 
+$(phplibdir)/sample5.la: ./sample5.la
+	$(LIBTOOL) --mode=install cp ./sample5.la $(phplibdir)
+
+./sample5.la: $(shared_objects_sample5) $(SAMPLE5_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_sample5) $(SAMPLE5_SHARED_LIBADD)
+

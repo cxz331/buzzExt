@@ -1,0 +1,95 @@
+*** Testing fileperms() & chmod() : usage variations ***
+
+*** Testing fileperms(), chmod() with miscellaneous permissions ***
+-- Iteration 1 --
+bool(true)
+105777
+bool(true)
+45777
+-- Iteration 2 --
+bool(true)
+100000
+bool(true)
+40000
+-- Iteration 3 --
+bool(true)
+101000
+bool(true)
+41000
+-- Iteration 4 --
+bool(true)
+101111
+bool(true)
+41111
+-- Iteration 5 --
+bool(true)
+105001
+bool(true)
+45001
+-- Iteration 6 --
+bool(true)
+100001
+bool(true)
+40001
+-- Iteration 7 --
+bool(true)
+101411
+bool(true)
+41411
+-- Iteration 8 --
+bool(true)
+105141
+bool(true)
+45141
+-- Iteration 9 --
+bool(true)
+100637
+bool(true)
+40637
+-- Iteration 10 --
+bool(true)
+101567
+bool(true)
+41567
+-- Iteration 11 --
+bool(true)
+101567
+bool(true)
+41567
+-- Iteration 12 --
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 51
+NULL
+101567
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 56
+NULL
+41567
+-- Iteration 13 --
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 51
+NULL
+101567
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 56
+NULL
+41567
+-- Iteration 14 --
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 51
+NULL
+101567
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 56
+NULL
+41567
+-- Iteration 15 --
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 51
+NULL
+101567
+
+Warning: chmod() expects parameter 2 to be long, string given in /data/service/php-5.5.28/ext/standard/tests/file/006_variation2.php on line 56
+NULL
+41567
+*** Done ***

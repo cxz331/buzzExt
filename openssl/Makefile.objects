@@ -1,0 +1,10 @@
+openssl.lo: /data/service/php-5.5.28/ext/openssl/openssl.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/service/php-5.5.28/ext/openssl $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/service/php-5.5.28/ext/openssl/openssl.c -o openssl.lo 
+xp_ssl.lo: /data/service/php-5.5.28/ext/openssl/xp_ssl.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/data/service/php-5.5.28/ext/openssl $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /data/service/php-5.5.28/ext/openssl/xp_ssl.c -o xp_ssl.lo 
+$(phplibdir)/openssl.la: ./openssl.la
+	$(LIBTOOL) --mode=install cp ./openssl.la $(phplibdir)
+
+./openssl.la: $(shared_objects_openssl) $(OPENSSL_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_openssl) $(OPENSSL_SHARED_LIBADD)
+

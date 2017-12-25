@@ -1,0 +1,46 @@
+2017/03/06 19:22:21 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Loading user properties from: /Users/leiming/Downloads/工具/apache-jmeter-3.1/bin/user.properties 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Loading system properties from: /Users/leiming/Downloads/工具/apache-jmeter-3.1/bin/system.properties 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: os.arch=x86_64 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: os.version=10.12.3 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Max memory     =514850816 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Available Processors =4 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: JMeterHome=/Users/leiming/Downloads/工具/apache-jmeter-3.1 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: user.dir  =/data/service/php-5.5.28/ext/sample 
+2017/03/06 19:22:21 INFO  - jmeter.JMeter: PWD       =/data/service/php-5.5.28/ext/sample 
+2017/03/06 19:22:22 INFO  - jmeter.JMeter: IP: 127.0.0.1 Name: localhost FullName: localhost 
+2017/03/06 19:22:23 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2017/03/06 19:22:23 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2017/03/06 19:22:27 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/03/06 19:22:27 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/03/06 19:22:32 INFO  - org.jmeterplugins.repository.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jmeter-ftp=3.1, jmeter-http=3.1, jmeter-jdbc=3.1, jmeter-jms=3.1, jmeter-monitors=3.1, jmeter-core=3.1, jmeter-junit=3.1, jmeter-java=3.1, jmeter-ldap=3.1, jmeter-mail=3.1, jmeter-mongodb=3.1, jmeter-native=3.1, jpgc-perfmon=2.1, jpgc-plugins-manager=0.11, jmeter-tcp=3.1, jmeter-components=3.1] 
+2017/03/06 19:22:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion 
+2017/03/06 19:22:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor 
+2017/03/06 19:22:33 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2017/03/06 19:22:34 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2017/03/06 19:22:34 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/leiming/Downloads/工具/apache-jmeter-3.1/bin/proxyserver.jks 
+2017/03/06 19:22:34 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler 
+2017/03/06 19:22:35 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2017/03/06 19:22:35 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2017/03/06 19:22:35 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer 
+2017/03/06 19:22:35 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener 
+2017/03/06 19:22:35 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.MonitorHealthVisualizer 
+2017/03/06 19:22:35 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/03/06 19:22:35 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/03/06 19:22:35 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/03/06 19:22:35 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/03/06 19:23:40 INFO  - jmeter.services.FileServer: Default base='/data/service/php-5.5.28/ext/sample' 

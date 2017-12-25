@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--with-openssl' \
+'--with-php-config=/data/service/php-dev-5.5.28/bin/php-config' \
+"$@"

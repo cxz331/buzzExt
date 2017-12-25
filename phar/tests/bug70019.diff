@@ -1,0 +1,7 @@
+001+ Fatal error: Uncaught exception 'UnexpectedValueException' with message 'phar error: zlib extension is required in zip-based phar "/data/service/php-5.5.28/ext/phar/tests/bug70019.zip"' in /data/service/php-5.5.28/ext/phar/tests/bug70019.php:3
+002+ Stack trace:
+001- bool(true)
+002- ===DONE===
+003+ #0 /data/service/php-5.5.28/ext/phar/tests/bug70019.php(3): PharData->__construct('/data/service/p...')
+004+ #1 {main}
+005+   thrown in /data/service/php-5.5.28/ext/phar/tests/bug70019.php on line 3

@@ -1,0 +1,2 @@
+006+ /data/service/php-5.5.28/main/streams/streams.c(530) : Stream of type 'STDIO' 0x10cb8b240 (path:/private/var/folders/rx/8rskz59j1z1gl2c6gv60myrm0000gn/T/phpOnAYrf) was not closed
+007+ /data/service/php-5.5.28/main/streams/streams.c(530) : Stream of type 'STDIO' 0x10caff7e8 (path:/data/service/php-5.5.28/ext/phar/tests/bug69958.tar) was not closed
